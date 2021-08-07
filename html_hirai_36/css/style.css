@@ -1,0 +1,498 @@
+  /* ここから下に記載していく */
+
+
+
+  body {
+  font-family: "Avenir Next";
+  text-align: center;
+  font-size: 24px;
+  width: 1600px;
+  margin: auto;
+}
+
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+ul.nav {
+  display: flex;
+  font-size: 24px;
+}
+
+.nav li {
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+  /*以下、メインビジュアル*/
+  /*画像の上に文字を載せるのが上手くできない*/
+  /*画像をもとのサイズで背景にするのが上手くできない*/
+
+.mainvisual{
+  height: 600px;
+  background: url(../img/mainbg.png);
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainvisual-text {
+  padding: auto;
+}
+
+.mainvisual-title{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.mainvisual-subtitle{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 30px; 
+}
+
+  /*2コラムのチャレンジ*/
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+article {
+  width: 85%;
+}
+
+aside {
+  width: 15%
+}
+
+
+
+  /*以下、 アバウトの装飾*/
+
+  .about-top {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #ffd61a;
+    font-size: 35px;
+  }
+
+  .about-text {
+    font-size:25px
+  }
+
+  .about-title {
+    margin-bottom: 60px;
+  }
+
+  .about-main {
+    margin-bottom: 40px;
+    line-height: 40px;
+  }
+
+.about-main-last {
+  margin-bottom: 80px;
+}
+
+.imgbox {
+  display: flex; 
+  width: 85%;
+  justify-content: flex-start;
+}
+
+.imgbox-pic {
+  width: 22%;
+  object-fit: cover;
+}
+
+
+
+/*以下、コースの装飾*/
+.course-top {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  line-height: 3px;
+}
+
+.course-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+
+.course-contents, .course-contents_reverse {
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-pic {
+  width: 50%;
+  height: 500px;
+}
+
+.course-textbox {
+  background-color : #fafafa;
+  width: 50%;
+  height: 500px;
+  padding-left: 50px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.course-textbox_reverse {
+  background-color : #fafafa;
+  width: 50%;
+  height: 500px;
+  padding-right: 50px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.course-theme, .course-theme_reverse {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: auto;
+  padding-bottom: auto;
+  width: 540px;
+  text-align: left;
+}
+
+.course-description, .course-description_reverse {
+  text-align: left;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+/*以下、ニュースの装飾*/
+
+.news-top {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.news-subtitle {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.newslist {
+  text-align: left;
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.newslist-item {
+  width: 330px;
+}
+
+.newslist-item-day {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.newslist-item-text {
+  line-height: 30px;
+}
+
+.more-button {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #ffd61a;
+  width: 330px;
+  height: 60px;
+  -webkit-transition: all .3s ease;
+	transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+	.more-button:hover {
+	background:forestgreen;
+  }
+
+.more-button-letter {
+  font-size: 28px;
+  color: white;
+  padding: 22px;
+  }
+
+/*以下、アクセスの装飾*/
+
+.access {
+  background-color : #fafafa 
+}
+
+.access-title {
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+
+.access-top {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.map {
+  width:1440px;
+  height:550px;
+  padding-bottom: 30px;
+}
+
+.access-table {
+  padding-bottom: 60px  ;
+}
+
+.access-info {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 850px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.table-content {
+  padding: 20px;
+}
+
+/*以下、コンタクトの装飾*/
+.contact-top {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.contact-subtitle {
+  margin-bottom: 60px;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+/*コンタクトフォームの記載*/
+.contact-form {
+  margin-top: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 800px;
+  padding-top: 60px;
+}
+
+.form-table {
+  border-collapse: collapse;
+}
+
+.item-left, .item-right {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #bfbfbf;
+  padding: 20px;
+  line-height: 30px;
+  vertical-align:top;
+}
+
+.item-left {
+  width: 280px;
+}
+
+.item-right{
+  width: 520px; 
+}
+
+label {
+  font-size: 20px;
+}
+
+.textbox {
+  width: 430px;
+  height: 27px;
+}
+
+.selectbox {
+  width: 430px;
+  height: 40px;
+}
+
+.selectbox-letter {
+  font-size: 20px;
+}
+
+.textbox-large {
+  width: 430px;
+  height: 150px;
+}
+
+/*送信ボタンの装飾*/
+.submit-button {
+  margin: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.submit-button-content {
+    height: 40px;
+  width: 120px;
+}
+
+.submit-btn {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 12px 0 8px;
+    text-decoration: none;
+    color: #67c5ff;
+    transition: .4s;
+  }
+  
+  .submit-btn :before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    top:100%;
+    left: 0;
+    border-radius: 3px;
+    background:#67c5ff;
+    transition: .2s;
+  }
+  
+  .submit-btn :after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    top:0;
+    left: 0;
+    border-radius: 3px;
+    background:#67c5ff;
+    transition: .2s;
+  }
+  
+  .submit-btn :hover:before {
+    top: -webkit-calc(100% - 3px);
+    top: calc(100% - 3px);
+  }
+  
+  .submit-btn :hover:after {
+    top: 3px;
+  }
+
+/*以下、コンタクトの装飾*/
+
+.material-icons{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.material-icons-img {
+  width: 100px;
+}
+
+
+
+
+ /*=== サイドバー部分 ========================= */
+
+ .sub-title {
+   font-size: 30px;
+   padding: 0 8px 8px;
+   border-bottom: 2px #ffd61a solid;
+   font-weight: bold;
+   margin-top: 90px;
+   margin-bottom: 20px;
+   color: #ffd61a;
+   text-align: left;
+ }
+
+.sub-title-text {
+  text-align: left;
+  line-height: 30px;
+}
+
+ul.nav_side {
+  display: flex;
+  font-size: 24px;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  line-height: 40px;
+}
+
+.nav_side li {
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+/*画像スライド*/
+.slide {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 180px;
+  height: 180px;
+}
+
+.slide-img {
+  display: block;
+  position: absolute;
+  
+  width: inherit;
+  height:inherit;
+  opacity: 0;
+  animation: slideAnime 9s ease infinite;
+}
+ 
+.slide img:nth-of-type(1) { animation-delay: 0s }
+.slide img:nth-of-type(2) { animation-delay: 3s }
+.slide img:nth-of-type(3) { animation-delay: 6s }
+ 
+ /*=== スライドのアニメーション ========================= */
+@keyframes slideAnime{
+   0% { opacity: 0 }
+   3% { opacity: 1 }
+  30% { opacity: 1 }
+  33% { opacity: 0 }
+ 100% { opacity: 0 }
+}
+
+.footer {
+  margin-top: 60px;
+  background-color:#707070;
+  font-size: 16px;
+  color: white;
+  padding : 30px;
+}
